@@ -5,7 +5,9 @@
   "main": "built/index.js",
   "types": "src/index.ts",
   "scripts": {
+    "prepare": "del -rf built && tsc",
     "start": "tsc -w --outDir demo/built"
+
   },
   "repository": {
     "type": "git",
