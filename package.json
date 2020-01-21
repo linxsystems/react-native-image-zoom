@@ -5,7 +5,7 @@
   "main": "built/index.js",
   "types": "src/index.ts",
   "scripts": {
-    "prepare": "shx rm -rf built && tsc",
+    "prepare": "rm -rf built && tsc",
     "start": "tsc -w --outDir demo/built"
 
   },
